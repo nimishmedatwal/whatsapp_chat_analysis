@@ -1,111 +1,114 @@
 
- MESSAGE: null
+ MESSAGE: Happy Guru Purab! 🪔✨
+MESSAGE: Happy Gurupurab to all the Gurus out there! 🪔✨
+MESSAGE: Wishing a very happy Gurupurab to all 🪔
 MESSAGE: null
-MESSAGE: Greetings
+MESSAGE: @everyone
+*REMINDER*
 
-Please find the schedule for tomorrow's events for the 1st years.
+Tech meet event schedule for this week
 
-**9:00 AM - 10:00 AM**
+*Thursday (24th Nov):*
+- Workshop on UI/UX at 6pm.
+- Hackathon on Sustainability at 7pm.
 
-- 1st year Welcome Meet (LP 101)
-- Kickstart for all the freshers (LP 201)
-- 1st year Orientation with Prof. Aarti Goyal (LP 301)
+*Friday (25th Nov):*
+- Workshop on Android Development at 6pm.
+- Workshop on Flutter Development at 7pm.
 
-**10:00 AM - 11:00 AM**
+*Saturday (26th Nov):*
+- Workshop on Data Science at 6pm.
+- Workshop on Machine Learning at 7pm.
 
-- Placement Talk by Prof. Amit Mahajan (LP 201)
-- Student Council Election Process (LP 101)
-- Induction of Cultural Clubs (LP 301)
+Kindly attend the workshops as per your department.
 
-**11:00 AM - 12:00 PM**
+For more details regarding the events, please check the attached schedule.
 
-- 1st year Technical Department Workshop (LP 101)
+*NOTE:*
+1. The workshops will be conducted online on Google Meet.
+2. The meeting links will be shared on this group a few minutes before the start of the workshops.
+3. Attendance will be marked for all the workshops.
+4. Kindly update the progress tracker sheet after completing the tasks assigned to you.
 
-**12:00 PM - 1:00 PM**
-
-- Lunch Break
-
-**1:00 PM - 2:00 PM**
-
-- Student Council Elections (LP 101)
-- Induction of Cultural Clubs (LP 301)
-
-**2:00 PM - 3:00 PM**
-
-- 1st year Technical Department Workshop (LP 101)
-
-**3:00 PM - 4:00 PM**
-
-- Department Specific Workshops (Various Departments)
-
-**4:00 PM - 5:00 PM**
-
-- Cultural Club Events (Various Departments)
-
-**5:00 PM - 6:00 PM**
-
-- Department Specific Workshops (Various Departments)
-
-**6:00 PM - 7:00 PM**
-
-- Cultural Club Events (Various Departments)
-
-**7:00 PM - 8:00 PM**
-
-- Freshers Party (Various Departments)
-
-**8:00 PM - 9:00 PM**
-
-- Department Specific Workshops (Various Departments)
-
-**9:00 PM - 10:00 PM**
-
-- Freshers Party (Various Departments)
-
-We hope you all have a great time!
+See you all there!
+MESSAGE: Happy Diwali ✨✨
+MESSAGE: Happy Diwali 🪔
+MESSAGE: Happy Diwali! ✨🪔
+MESSAGE: null
+MESSAGE: Happy Diwali everyone 🎇
+MESSAGE: Happy Diwali to everyone ✨🪔
+MESSAGE: Happy Diwali to all 🪔✨
 MESSAGE: <Media omitted>
-MESSAGE: null
-MESSAGE: Happy new year
-MESSAGE: Stories everyone 🪅
-MESSAGE: Join Discord!
+MESSAGE: Hello,
 
-**[Link](https://discord.gg/49nk2Ef4)**
+Hope you had a great Diwali! ✨
 
-Join our discord server to stay updated about events, workshops, competitions and other announcements. You can also connect with other students and seniors from your department.
+As you may know, we are hosting a Google Summer of Code 2024 Info Session on November 29th at 7pm.
 
-Happy new year!
-MESSAGE: 🎉Happy New Year 2024!🎉
+We will be going over the details of GSOC, how to apply, and how to get started with your projects.
 
-Here's wishing you all a year filled with joy, happiness, and success. May the new year bring you all your heart's desires.
+We will also be sharing some tips and tricks from past participants on how to make your application stand out.
 
-Stay safe and have a great time!
-MESSAGE: 🎉🎉 Happy New Year 2024! 🎉🎉
+This is a great opportunity to learn more about GSOC and get your questions answered.
 
-Hope you all had a wonderful Christmas and New Year! May this year be even better than the last.
+So please join us on November 29th at 7pm to learn more about GSOC!
 
-Here's to a year of good health, happiness, and success!
+Link: https://meet.google.com/jro-ajsd-tmt
 
-**From the team at Microsoft Student Chapter**
-MESSAGE: null
-MESSAGE: Hello first years ,
-Hope you are doing well and are making productive use of the vacations by dedicatedly exploring the resources provided to you!
-In order to facilitate a deeper understanding of each department,its working and to answer all the doubts that you might be facing, we have planned a series of workshops pertaining to each department that will help you explore their working in detail. In the workshop we will delve into the intricacies of each domain thus providing you with a good starting point. The schedule for the workshops is attached below. All the workshops will be held online and the link for the same will be shared with you on this group,a little prior to the session.
+See you there!
+MESSAGE: Hi everyone,
 
-*It is highly recommended to join each workshop in order to fully explore all departments and determine best fit for you*
+We are excited to announce the launch of our new Google Summer of Code 2024 program! This is a great opportunity for students to get involved in open source development and work with some of the world's leading technology companies.
 
-Hope to see you all there!
+We are looking for students who are passionate about open source and have experience in any of the following areas:
 
-**Topics covered in the workshops:**
-
-* Web Development
-* App Development
+* Artificial Intelligence
 * Machine Learning
-* Marketing
+* Cloud Computing
+* Robotics
+* Natural Language Processing
+* Data Science
 
-**Dates and time of the workshops:**
+If you are interested in participating in GSOC, please visit our website for more information and to apply. The deadline to apply is January 15th, 2024.
 
-* Web Development: 14th November, 2023 | 6:00 PM - 7:00 PM
-* App Development: 15th November, 2023 | 6:00 PM - 7:00 PM
-* Machine Learning: 16th November, 2023 | 6:00 PM - 7:00 PM
+We look forward to seeing you there!
 
+https://developers.google.com/gsoc/program/2024/
+
+
+**Note:** This is not an official Google event.
+MESSAGE: Hello everyone,
+
+Hope you are doing well. We are excited to announce that we are hosting a Google Summer of Code 2024 Info Session on November 29th at 7pm. This is a great opportunity for students to learn more about the program and how to apply.
+
+We will be covering the following topics:
+
+* What is GSOC?
+* How to apply
+* Tips and tricks for writing a successful application
+* The application process
+
+We will also be answering any questions you may have about the program.
+
+We hope to see you there!
+
+**Date:** November 29th, 2024
+
+**Time:** 7pm
+
+**Link:** https://meet.google.com/jro-ajsd-tmt
+
+**Register:** https://forms.gle/5ysv6s35n76k86sy6
+
+**Note:** This is not an official Google event.
+MESSAGE: Hi Everyone,
+
+We are excited to announce that the Google Summer of Code 2024 Info Session will be held on November 29th, 2024 at 7pm. This is a great opportunity for students to learn more about the program and how to apply.
+
+We will be covering the following topics:
+
+* What is GSOC?
+* How to apply
+* Tips and tricks for writing a successful application
+*
 

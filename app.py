@@ -126,8 +126,6 @@ if uploaded_file is not None:
             fig,ax = plt.subplots()
             ax.pie(emoji_df[1].head(),labels=emoji_df[0].head(),autopct="%0.2f")
             st.pyplot(fig)
-        
-    chat_type = st.sidebar.selectbox("Select Chat Type", ["WhatsApp", "Signal", "Slack"])
     st.sidebar.header("Select Date Range")
     start_date = st.sidebar.date_input("Start Date", format="MM/DD/YYYY")
     end_date = st.sidebar.date_input("End Date", format="MM/DD/YYYY")
@@ -135,7 +133,7 @@ if uploaded_file is not None:
     end_date = end_date.strftime("%m/%d/%Y")
 
     # Model Selection
-    model = st.sidebar.selectbox("Select OpenAI Model", ["models/text-bison-001"])
+    model = st.sidebar.selectbox("Select Model", ["models/text-bison-001","models/chat-bison-001"])
 
     generate_newsletter = st.sidebar.checkbox("Generate Newsletter Intro")
 
@@ -145,7 +143,7 @@ if uploaded_file is not None:
         is_newsletter = generate_newsletter
 
         # Call the summarization function
-        group_chat_summarizer.main(chat_type, uploaded_file, summary_file, str(start_date), str(end_date), is_newsletter, model)
+        group_chat_summarizer.main( uploaded_file, summary_file, str(start_date), str(end_date), is_newsletter, model)
 
         # Display Summary
         with open(summary_file, "r", encoding="utf-8") as summary_file:
