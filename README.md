@@ -1,4 +1,4 @@
-# Whatsapp Chat Analyzer
+# Whatsapp Chat Analyzer and Summarizer
 
 This is a Streamlit-based application for analyzing WhatsApp group chat data. The application allows users to upload their WhatsApp chat data, preprocesses it, and provides various analyses and visualizations to gain insights into the communication patterns within the group.
 
@@ -6,7 +6,7 @@ This is a Streamlit-based application for analyzing WhatsApp group chat data. Th
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Screenshots](#screenshots)
+- [Test](#test)
 - [License](#license)
 
 ## Installation
@@ -55,9 +55,8 @@ This is a Streamlit-based application for analyzing WhatsApp group chat data. Th
 
 - **Summarization:** Allows users to summarize the chat data within a specified date range using different summarization models. The summary can be displayed and saved.
 
-## Screenshots
-
-_Insert screenshots of your application here, showcasing different features._
+## Test
+Demo Link: [Click here](https://whatsappsummary.streamlit.app/)
 
 ## License
 
