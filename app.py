@@ -2,7 +2,7 @@ import streamlit as st
 import preprocessor,helper
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import group_chat_summarizer
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
@@ -145,7 +145,7 @@ if uploaded_file is not None:
         is_newsletter = generate_newsletter
 
         # Call the summarization function
-        group_chat_summarizer.main(chat_type, chat_file, summary_file, str(start_date), str(end_date), is_newsletter, model)
+        group_chat_summarizer.main(chat_type, uploaded_file, summary_file, str(start_date), str(end_date), is_newsletter, model)
 
         # Display Summary
         with open(summary_file, "r", encoding="utf-8") as summary_file:
