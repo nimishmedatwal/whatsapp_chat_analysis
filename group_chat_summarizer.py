@@ -1,11 +1,6 @@
-import os
 import regex as re
-import openai
 import datetime
 from dateutil.parser import parse
-import argparse
-import json
-from transformers import pipeline
 import google.generativeai as palm
 DATE_PATTERN = '\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s-\s'
 datepattern = '\d{1,2}/\d{1,2}/\d{2,4}'
