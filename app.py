@@ -7,13 +7,13 @@ st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
+    st.sidebar.success("File uploaded successfully!")
     bytes_data = uploaded_file.getvalue()
     data = bytes_data.decode("utf-8")
     df = preprocessor.preprocess(data)
 
     # fetch unique users
     user_list = df['user'].unique().tolist()
-    user_list.remove('group_notification')
     user_list.sort()
     user_list.insert(0,"Overall")
 
@@ -126,6 +126,34 @@ if uploaded_file is not None:
             fig,ax = plt.subplots()
             ax.pie(emoji_df[1].head(),labels=emoji_df[0].head(),autopct="%0.2f")
             st.pyplot(fig)
+        
+    chat_type = st.sidebar.selectbox("Select Chat Type", ["WhatsApp", "Signal", "Slack"])
+    st.sidebar.header("Select Date Range")
+    start_date = st.sidebar.date_input("Start Date", format="MM/DD/YYYY")
+    end_date = st.sidebar.date_input("End Date", format="MM/DD/YYYY")
+    start_date = start_date.strftime("%m/%d/%Y")
+    end_date = end_date.strftime("%m/%d/%Y")
+
+    # Model Selection
+    model = st.sidebar.selectbox("Select OpenAI Model", ["models/text-bison-001"])
+
+    generate_newsletter = st.sidebar.checkbox("Generate Newsletter Intro")
+
+    # Summarize Button
+    if st.sidebar.button("Summarize"):
+        summary_file = "summary_output.txt"  #
+        is_newsletter = generate_newsletter
+
+        # Call the summarization function
+        group_chat_summarizer.main(chat_type, chat_file, summary_file, str(start_date), str(end_date), is_newsletter, model)
+
+        # Display Summary
+        with open(summary_file, "r", encoding="utf-8") as summary_file:
+            summary = summary_file.read()
+            st.subheader("Summary")
+            st.markdown(summary, unsafe_allow_html=False, help=None)
+
+
 
 
 
