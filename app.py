@@ -6,6 +6,10 @@ import group_chat_summarizer
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
+readme = "README.md"
+with open(readme, "r", encoding="utf-8") as readme:
+    readmemd = readme.read()
+    st.markdown(readmemd, unsafe_allow_html=False, help=None)
 if uploaded_file is not None:
     st.sidebar.success("File uploaded successfully!")
     bytes_data = uploaded_file.getvalue()
