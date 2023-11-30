@@ -4,6 +4,7 @@ seaborn
 urlextract
 wordcloud
 pandas
+nltk
 emoji
 google-generativeai
 aiohttp==3.8.4
