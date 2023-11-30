@@ -1,55 +1,31 @@
 
- **Topics Discussed:**
+ MESSAGE: https://www.instagram.com/p/Czw-t98K652/
+MESSAGE: Happy Gurupurab!
+MESSAGE: Happy Guru Nanak Jayanti
+MESSAGE: Happy Guru Nanak Jayanti 🎉
+MESSAGE: Hi everyone,
+We're really excited to announce that we are organizing a hackathon this Saturday (26th November) at Thapar University. This is a great opportunity for you to showcase your technical skills and learn from some of the best in the industry.
 
-* **Technical Department Workshop:**
-    * **Web Dev, App Dev and ML**
-        * **HTML+CSS in 1-2 days (extra time)**
-        * **Complete JS from the given resources till 19th November**
-        * **PROJECT TASK Use HTML+CSS+JS to create a calculator application with a good UI (work on your CSS for this)**
-        * **DEADLINE: 1st December,2023**
-        * **Additional JS resources:** https://www.youtube.com/watch?v=m55PTVUrlnA&ab_channel=PedroTech
-    * **Backend**
-        * **PROJECT TASK use the database of your choice to create a server on localhost using different routes for different operators. For example, /sum routing would take post request of numbers and get their sum from server as response to that request.
-        * **Refer to this article if using nodejs:** https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/
-        * **This article uses routing for login. Refer to this for learning API testing using postman.**
-        * **DEADLINE: 1st December,2023**
-    * **Machine Learning**
-        * **PROJECT TASK: create a house price prediction model using linear regression.**
-        * **Link for the dataset:** https://www.kaggle.com/datasets/camnugent/california-housing-prices
-        * **DEADLINE: 1st December,2023**
-    * **App Dev**
-        * **PROJECT TASK:** 
-        * work on a fully functional calculator app with good UI
-        * for those who have completed the frontend of their apps -->you can work on the login/signup for user authentication and include a history section for every user.
+The hackathon will be open to all students from Thapar University. The theme of the hackathon is "Harnessing the Power of AI for Social Good". You can work in teams of up to 4 people. The winners of the hackathon will receive exciting prizes.
 
-        * **DEADLINE: 1st December,2023**
-    * **NOTE:**
-        * **Keep updating the sheet as well so we can keep track of everyone's progess**
-        * **Link for progress tracker sheet:** https://docs.google.com/spreadsheets/d/1T8HMf_YY3a1vE-jK3qvRga-mn-9vU_Mw8g42hCMlExI/edit#gid=0
-        * **Previously Provided Resources** link: https://github.com/MicrosoftStudentChapter/Techmeet-Resources
-* **Design Workshop:**
-    * **Installation setups for both Adobe PS and AI**
-        * **Adobe Photoshop and illustrator setup for windows:**
-        * https://drive.google.com/drive/folders/1UC4sr_Zp-CHoSdDKXmzT-sQn1Dp0vA39?usp=drive_link
-        * **Adobe Photoshop and Illustrator for MAC:** 
-        * https://ask4pc.net/c/adobe/
-        * (Iss website par search karlena and setup install karlena)
-        * **Please ping @919988191621 or any of the seniors in *Design Krow* group for any doubts and queries.**
-* **HACK4SUSTAINABILITY - Nov 23rd 🌿**
-    * **Hey Tech Enthusiasts!**
-        * **Missed the hackathon season? No worries! Saturnalia'23 brings you The most engaging Hackathon - HACK4SUSTAINABILITY!**
-        * **📅 Date: 23rd November**
-        * **🔗 Register:**
-        * https://www.risein.com/bootcamps/thapar-hack4sustainibility-hackathon?utm_source=Offline&utm_medium=hackathon&utm_campaign=ThaparHack
-        * **🏆 Prize Pool: INR 1,00,000**
-        * **💻 Goodies: INR 40,000**
-        * **🕴 PPI & Internship Offers: Top 10 Teams**
-        * **😎 Mentorship Opportunities: Web-3 Founders & OG’s**
-        * **💻 Goodies for All: Qualifying Participants**
-        * **and so much more..**
-        * **Collaborate in teams, unleash your creativity, and tackle sustainability challenges head-on. 🤝💡**
-* **Birthday Wishes:**
-    * **Happy Birthday @918882160205**
-        * **🎉🍻**
-    * **Happy b'day @91888
+To register for the hackathon, please visit the following link:
+https://forms.gle/89x21194v16X52cR9
+
+We look forward to seeing you all there!
+
+**Important dates:**
+
+* Registration deadline: 25th November
+* Hackathon date: 26th November
+* Prize distribution: 27th November
+
+**Prizes:**
+
+* First place: INR 1,00,000
+* Second place: INR 50,000
+* Third place: INR 25,000
+
+**Contact:**
+
+For any queries, please contact us at thaparhack@gmail.com
 

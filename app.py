@@ -6,10 +6,8 @@ import group_chat_summarizer
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
-readme = "README.md"
-with open(readme, "r", encoding="utf-8") as readme:
-    readmemd = readme.read()
-    st.markdown(readmemd, unsafe_allow_html=False, help=None)
+st.header("WhatsApp chat Analysis and Summarize")
+
 if uploaded_file is not None:
     st.sidebar.success("File uploaded successfully!")
     bytes_data = uploaded_file.getvalue()
@@ -24,7 +22,6 @@ if uploaded_file is not None:
     selected_user = st.sidebar.selectbox("Show analysis wrt",user_list)
 
     if st.sidebar.button("Show Analysis"):
-
         # Stats Area
         num_messages, words, num_media_messages, num_links = helper.fetch_stats(selected_user,df)
         st.title("Top Statistics")
