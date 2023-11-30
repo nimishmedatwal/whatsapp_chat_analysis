@@ -1,31 +1,76 @@
+**Title:** Interview Experience Form
 
- MESSAGE: https://www.instagram.com/p/Czw-t98K652/
-MESSAGE: Happy Gurupurab!
-MESSAGE: Happy Guru Nanak Jayanti
-MESSAGE: Happy Guru Nanak Jayanti 🎉
-MESSAGE: Hi everyone,
-We're really excited to announce that we are organizing a hackathon this Saturday (26th November) at Thapar University. This is a great opportunity for you to showcase your technical skills and learn from some of the best in the industry.
+**Description:**
+Please fill out this form to share your interview experience. Your responses will be anonymous.
 
-The hackathon will be open to all students from Thapar University. The theme of the hackathon is "Harnessing the Power of AI for Social Good". You can work in teams of up to 4 people. The winners of the hackathon will receive exciting prizes.
+**Questions:**
+1. What company did you interview with?
+2. What position did you interview for?
+3. When did you interview?
+4. How did you find out about the interview?
+5. What was the interview process like?
+6. What were the questions asked?
+7. How did you feel about the interview?
+8. What did you learn from the interview?
+9. What advice would you give to others who are preparing for an interview?
+10. Would you recommend working for this company?
 
-To register for the hackathon, please visit the following link:
-https://forms.gle/89x21194v16X52cR9
+**Instructions:**
+1. Please answer all questions as honestly as possible.
+2. Your responses will be anonymous.
+3. Please submit your responses by **November 8, 2022**.
 
-We look forward to seeing you all there!
+**Thank you!**
 
-**Important dates:**
 
-* Registration deadline: 25th November
-* Hackathon date: 26th November
-* Prize distribution: 27th November
+MESSAGE: Happy Gurupurab to everyone 🩷
+MESSAGE: 1. **Introduction to Machine Learning (ML)**
+* **What is ML?**
+    * ML is a subfield of artificial intelligence that gives computers the ability to learn without being explicitly programmed.
+    * ML algorithms are trained on data, and then used to make predictions or decisions without being explicitly programmed.
+* **Types of ML**
+    * There are two main types of ML: supervised and unsupervised learning.
+        * **Supervised learning** involves training a model on a dataset of labeled data. The model learns to associate features of the data with the labels.
+        * **Unsupervised learning** involves training a model on a dataset of unlabeled data. The model learns to find patterns in the data without being told what the labels are.
+* **Applications of ML**
+    * ML is used in a wide variety of applications, including:
+        * **Natural language processing**
+        * **Computer vision**
+        * **Speech recognition**
+        * **Machine translation**
+        * **Recommender systems**
+        * **Medical diagnosis**
+        * **Financial trading**
+        * **Self-driving cars**
 
-**Prizes:**
+2. **Why is ML important?**
+* ML is important because it gives computers the ability to learn and make decisions without being explicitly programmed. This can lead to a variety of benefits, including:
+    * **Improved accuracy**
+    * **Reduced costs**
+    * **Increased speed**
+    * **Greater flexibility**
+    * **New opportunities**
 
-* First place: INR 1,00,000
-* Second place: INR 50,000
-* Third place: INR 25,000
+3. **How to learn ML?**
+* There are a number of ways to learn ML, including:
+    * **Online courses**
+    * **Books**
+    * **Tutorials**
+    * **Hands-on projects**
+    * **Online communities**
+    * **Conferences**
+    * **Research papers**
 
-**Contact:**
+4. **Resources for learning ML**
+* Here are some resources for learning ML:
+    * [Machine Learning Crash Course](https://www.coursera.org/specializations/machine-learning)
+    * [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+    * [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+    * [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python)
+    * [The Elements of Statistical Learning](https://www.springer.com/gp/book/9780387310726)
+    * [Machine Learning: A Probabilistic Perspective](https://www.mitpress.mit.edu/books/machine-learning-probabilistic-perspective)
+    * [Neural Networks and Deep Learning](https://www.deeplearningbook.org/)
 
-For any queries, please contact us at thaparhack@gmail.com
+5. **Conclusion**
+* ML is a powerful tool that can be used to solve a variety of problems. By learning ML, you can gain the skills necessary to apply this technology to your own work.
 

@@ -3,11 +3,6 @@ import datetime
 from dateutil.parser import parse
 import google.generativeai as palm
 import Constants
-import nltk
-from nltk.corpus import treebank
-from nltk import Tree
-from nltk.draw import TreeWidget
-from nltk.draw.util import CanvasFrame
 
 DATE_PATTERN = '\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s-\s'
 datepattern = '\d{1,2}/\d{1,2}/\d{2,4}'
@@ -86,27 +81,6 @@ def palm_api(prompt, model):
     print(completion.result)
     return completion.result
 
-def generate_and_draw_tree(text):
-    tokens = nltk.word_tokenize(text)
-    tagged_tokens = nltk.pos_tag(tokens)
-
-    grammar = r"""
-        NP: {<DT>?<JJ>*<NN>}   # noun phrase
-        PP: {<IN><NP>}         # prepositional phrase
-        VP: {<VB.*><NP|PP>*}   # verb phrase
-    """
-    cp = nltk.RegexpParser(grammar)
-    tree = cp.parse(tagged_tokens)
-
-    # Draw the tree
-    tree.draw()
-
-def draw_tree(tree):
-    cf = CanvasFrame()
-    tc = TreeWidget(cf.canvas(), tree)
-    cf.add_widget(tc, 10, 10)
-    cf.print_to_file('tree.png')
-    cf.destroy()
 
 def summarize_text(text, model):
     # generate_and_draw_tree(text)
