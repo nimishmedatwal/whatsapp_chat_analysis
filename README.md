@@ -37,6 +37,16 @@ This is a Streamlit-based application for analyzing WhatsApp group chat data. Th
 
 4. Summarize: Click the "Summarize" button to generate a summary based on the selected date range and model. The summary will be displayed below the button.
 
+### Exporting chat from WhatsApp
+To export your group chat from WhatsApp, follow these steps:
+
+1. Open WhatsApp and go to the group chat you want to export.
+2. Tap on the group name at the top of the screen to open the group info.
+3. Scroll down and tap on "Export chat".
+4. Choose whether to include media files or not.
+5. Select how you want to share the chat export file. You can send it to yourself via email, save it to your device, or use any other method.
+6. Save the chat export file as a text file with a .txt extension.
+
 ## Features
 
 - **Statistics Area:** Provides overall statistics such as total messages, total words, media shared, and links shared.
