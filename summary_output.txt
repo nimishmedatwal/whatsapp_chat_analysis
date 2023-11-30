@@ -1,114 +1,55 @@
 
- MESSAGE: Happy Guru Purab! 🪔✨
-MESSAGE: Happy Gurupurab to all the Gurus out there! 🪔✨
-MESSAGE: Wishing a very happy Gurupurab to all 🪔
-MESSAGE: null
-MESSAGE: @everyone
-*REMINDER*
+ **Topics Discussed:**
 
-Tech meet event schedule for this week
+* **Technical Department Workshop:**
+    * **Web Dev, App Dev and ML**
+        * **HTML+CSS in 1-2 days (extra time)**
+        * **Complete JS from the given resources till 19th November**
+        * **PROJECT TASK Use HTML+CSS+JS to create a calculator application with a good UI (work on your CSS for this)**
+        * **DEADLINE: 1st December,2023**
+        * **Additional JS resources:** https://www.youtube.com/watch?v=m55PTVUrlnA&ab_channel=PedroTech
+    * **Backend**
+        * **PROJECT TASK use the database of your choice to create a server on localhost using different routes for different operators. For example, /sum routing would take post request of numbers and get their sum from server as response to that request.
+        * **Refer to this article if using nodejs:** https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/
+        * **This article uses routing for login. Refer to this for learning API testing using postman.**
+        * **DEADLINE: 1st December,2023**
+    * **Machine Learning**
+        * **PROJECT TASK: create a house price prediction model using linear regression.**
+        * **Link for the dataset:** https://www.kaggle.com/datasets/camnugent/california-housing-prices
+        * **DEADLINE: 1st December,2023**
+    * **App Dev**
+        * **PROJECT TASK:** 
+        * work on a fully functional calculator app with good UI
+        * for those who have completed the frontend of their apps -->you can work on the login/signup for user authentication and include a history section for every user.
 
-*Thursday (24th Nov):*
-- Workshop on UI/UX at 6pm.
-- Hackathon on Sustainability at 7pm.
-
-*Friday (25th Nov):*
-- Workshop on Android Development at 6pm.
-- Workshop on Flutter Development at 7pm.
-
-*Saturday (26th Nov):*
-- Workshop on Data Science at 6pm.
-- Workshop on Machine Learning at 7pm.
-
-Kindly attend the workshops as per your department.
-
-For more details regarding the events, please check the attached schedule.
-
-*NOTE:*
-1. The workshops will be conducted online on Google Meet.
-2. The meeting links will be shared on this group a few minutes before the start of the workshops.
-3. Attendance will be marked for all the workshops.
-4. Kindly update the progress tracker sheet after completing the tasks assigned to you.
-
-See you all there!
-MESSAGE: Happy Diwali ✨✨
-MESSAGE: Happy Diwali 🪔
-MESSAGE: Happy Diwali! ✨🪔
-MESSAGE: null
-MESSAGE: Happy Diwali everyone 🎇
-MESSAGE: Happy Diwali to everyone ✨🪔
-MESSAGE: Happy Diwali to all 🪔✨
-MESSAGE: <Media omitted>
-MESSAGE: Hello,
-
-Hope you had a great Diwali! ✨
-
-As you may know, we are hosting a Google Summer of Code 2024 Info Session on November 29th at 7pm.
-
-We will be going over the details of GSOC, how to apply, and how to get started with your projects.
-
-We will also be sharing some tips and tricks from past participants on how to make your application stand out.
-
-This is a great opportunity to learn more about GSOC and get your questions answered.
-
-So please join us on November 29th at 7pm to learn more about GSOC!
-
-Link: https://meet.google.com/jro-ajsd-tmt
-
-See you there!
-MESSAGE: Hi everyone,
-
-We are excited to announce the launch of our new Google Summer of Code 2024 program! This is a great opportunity for students to get involved in open source development and work with some of the world's leading technology companies.
-
-We are looking for students who are passionate about open source and have experience in any of the following areas:
-
-* Artificial Intelligence
-* Machine Learning
-* Cloud Computing
-* Robotics
-* Natural Language Processing
-* Data Science
-
-If you are interested in participating in GSOC, please visit our website for more information and to apply. The deadline to apply is January 15th, 2024.
-
-We look forward to seeing you there!
-
-https://developers.google.com/gsoc/program/2024/
-
-
-**Note:** This is not an official Google event.
-MESSAGE: Hello everyone,
-
-Hope you are doing well. We are excited to announce that we are hosting a Google Summer of Code 2024 Info Session on November 29th at 7pm. This is a great opportunity for students to learn more about the program and how to apply.
-
-We will be covering the following topics:
-
-* What is GSOC?
-* How to apply
-* Tips and tricks for writing a successful application
-* The application process
-
-We will also be answering any questions you may have about the program.
-
-We hope to see you there!
-
-**Date:** November 29th, 2024
-
-**Time:** 7pm
-
-**Link:** https://meet.google.com/jro-ajsd-tmt
-
-**Register:** https://forms.gle/5ysv6s35n76k86sy6
-
-**Note:** This is not an official Google event.
-MESSAGE: Hi Everyone,
-
-We are excited to announce that the Google Summer of Code 2024 Info Session will be held on November 29th, 2024 at 7pm. This is a great opportunity for students to learn more about the program and how to apply.
-
-We will be covering the following topics:
-
-* What is GSOC?
-* How to apply
-* Tips and tricks for writing a successful application
-*
+        * **DEADLINE: 1st December,2023**
+    * **NOTE:**
+        * **Keep updating the sheet as well so we can keep track of everyone's progess**
+        * **Link for progress tracker sheet:** https://docs.google.com/spreadsheets/d/1T8HMf_YY3a1vE-jK3qvRga-mn-9vU_Mw8g42hCMlExI/edit#gid=0
+        * **Previously Provided Resources** link: https://github.com/MicrosoftStudentChapter/Techmeet-Resources
+* **Design Workshop:**
+    * **Installation setups for both Adobe PS and AI**
+        * **Adobe Photoshop and illustrator setup for windows:**
+        * https://drive.google.com/drive/folders/1UC4sr_Zp-CHoSdDKXmzT-sQn1Dp0vA39?usp=drive_link
+        * **Adobe Photoshop and Illustrator for MAC:** 
+        * https://ask4pc.net/c/adobe/
+        * (Iss website par search karlena and setup install karlena)
+        * **Please ping @919988191621 or any of the seniors in *Design Krow* group for any doubts and queries.**
+* **HACK4SUSTAINABILITY - Nov 23rd 🌿**
+    * **Hey Tech Enthusiasts!**
+        * **Missed the hackathon season? No worries! Saturnalia'23 brings you The most engaging Hackathon - HACK4SUSTAINABILITY!**
+        * **📅 Date: 23rd November**
+        * **🔗 Register:**
+        * https://www.risein.com/bootcamps/thapar-hack4sustainibility-hackathon?utm_source=Offline&utm_medium=hackathon&utm_campaign=ThaparHack
+        * **🏆 Prize Pool: INR 1,00,000**
+        * **💻 Goodies: INR 40,000**
+        * **🕴 PPI & Internship Offers: Top 10 Teams**
+        * **😎 Mentorship Opportunities: Web-3 Founders & OG’s**
+        * **💻 Goodies for All: Qualifying Participants**
+        * **and so much more..**
+        * **Collaborate in teams, unleash your creativity, and tackle sustainability challenges head-on. 🤝💡**
+* **Birthday Wishes:**
+    * **Happy Birthday @918882160205**
+        * **🎉🍻**
+    * **Happy b'day @91888
 

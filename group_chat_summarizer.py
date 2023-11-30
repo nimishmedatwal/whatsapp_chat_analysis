@@ -2,6 +2,13 @@ import regex as re
 import datetime
 from dateutil.parser import parse
 import google.generativeai as palm
+import Constants
+import nltk
+from nltk.corpus import treebank
+from nltk import Tree
+from nltk.draw import TreeWidget
+from nltk.draw.util import CanvasFrame
+
 DATE_PATTERN = '\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s-\s'
 datepattern = '\d{1,2}/\d{1,2}/\d{2,4}'
 SUMMARY_PROMPT = f""""Please summarize in 1000 words the following WhatsApp group chat based on topics that were discussed. For each topic, include its title and summary in bullet points. The bullets should include detailed information. If the topic includes recommendations about specific companies or services, please include them in the summary. Please include links that were shared. Ignore messages with null and <Media omitted> and joined using this group's invite link, requested to join."""
@@ -9,8 +16,8 @@ NEWSLETTER_PROMPT = f"""Please provide one paragraph to open a newsletter coveri
 TIME_PER_MESSAGE = 0.015  # seconds
 MAX_WORD_COUNT = 2500
 
-API_KEY = "AIzaSyDsahT4nUiCkFkqyBx18K4gAsXqMNmR7uw"
-palm.configure(api_key=API_KEY)
+
+palm.configure(api_key=Constants.API_KEY)
 
 def read_file(file_path):
     bytes_data = file_path.getvalue()
@@ -79,8 +86,30 @@ def palm_api(prompt, model):
     print(completion.result)
     return completion.result
 
+def generate_and_draw_tree(text):
+    tokens = nltk.word_tokenize(text)
+    tagged_tokens = nltk.pos_tag(tokens)
+
+    grammar = r"""
+        NP: {<DT>?<JJ>*<NN>}   # noun phrase
+        PP: {<IN><NP>}         # prepositional phrase
+        VP: {<VB.*><NP|PP>*}   # verb phrase
+    """
+    cp = nltk.RegexpParser(grammar)
+    tree = cp.parse(tagged_tokens)
+
+    # Draw the tree
+    tree.draw()
+
+def draw_tree(tree):
+    cf = CanvasFrame()
+    tc = TreeWidget(cf.canvas(), tree)
+    cf.add_widget(tc, 10, 10)
+    cf.print_to_file('tree.png')
+    cf.destroy()
 
 def summarize_text(text, model):
+    # generate_and_draw_tree(text)
     prompt = f""""{SUMMARY_PROMPT}\n\n {text}"""
     return palm_api(prompt, model)
 
@@ -95,7 +124,7 @@ def summarize_messages(chunks, model):
     calls_counter = 0
     for chunk in chunks:
         calls_counter += 1
-        print(f"Sending prompt {calls_counter} out of {len(chunks)} to GPT! Chunk size: {len(chunk)}")
+        print(f"Sending prompt {calls_counter} out of {len(chunks)} Chunk size: {len(chunk)}")
         chunk_summary = summarize_text(chunk, model)
         summary += chunk_summary + '\n\n'
 
